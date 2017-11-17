@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	Makefile	/^CFLAGS=-pedantic -Wall -g -std=c++14$/;"	m
+CHROM_EST	anneal.cpp	/^    const int CHROM_EST = 10; \/\/ increasing increases runtime$/;"	m	struct:SimulatedAnnealing	file:
+FIXED_K	anneal.cpp	/^    int FIXED_K;$/;"	m	struct:SimulatedAnnealing	file:
+SOURCES	Makefile	/^SOURCES=anneal.cpp$/;"	m
+SimulatedAnnealing	anneal.cpp	/^    SimulatedAnnealing(string inputfile, int seed, int appr, bool st,int fixed) {$/;"	f	struct:SimulatedAnnealing
+SimulatedAnnealing	anneal.cpp	/^struct SimulatedAnnealing {$/;"	s	file:
+adj	anneal.cpp	/^    vector<list<int>> adj;$/;"	m	struct:SimulatedAnnealing	file:
+approach	anneal.cpp	/^    int approach;$/;"	m	struct:SimulatedAnnealing	file:
+c	anneal.cpp	/^    double c;$/;"	m	struct:SimulatedAnnealing	file:
+c_prime	anneal.cpp	/^    double c_prime;$/;"	m	struct:SimulatedAnnealing	file:
+c_star	anneal.cpp	/^    double c_star;$/;"	m	struct:SimulatedAnnealing	file:
+change1	anneal.cpp	/^    void change1() {$/;"	f	struct:SimulatedAnnealing
+change2	anneal.cpp	/^    void change2() {$/;"	f	struct:SimulatedAnnealing
+change3	anneal.cpp	/^    void change3() {$/;"	f	struct:SimulatedAnnealing
+change_soln	anneal.cpp	/^    void change_soln() {$/;"	f	struct:SimulatedAnnealing
+changed	anneal.cpp	/^    bool changed;$/;"	m	struct:SimulatedAnnealing	file:
+color_bad_edges	anneal.cpp	/^    map<int,int> color_bad_edges;$/;"	m	struct:SimulatedAnnealing	file:
+color_bad_edges_prime	anneal.cpp	/^    map<int,int> color_bad_edges_prime;$/;"	m	struct:SimulatedAnnealing	file:
+color_size	anneal.cpp	/^    map<int,int> color_size;$/;"	m	struct:SimulatedAnnealing	file:
+color_size_prime	anneal.cpp	/^    map<int,int> color_size_prime;$/;"	m	struct:SimulatedAnnealing	file:
+colors_used	anneal.cpp	/^    int colors_used;$/;"	m	struct:SimulatedAnnealing	file:
+cost	anneal.cpp	/^    double cost(vector<int> & sol) {$/;"	f	struct:SimulatedAnnealing
+cutoff	anneal.cpp	/^    double cutoff;$/;"	m	struct:SimulatedAnnealing	file:
+debug	anneal.cpp	/^const bool debug = true;$/;"	v
+final_soln	anneal.cpp	/^    void final_soln() {$/;"	f	struct:SimulatedAnnealing
+find_T	anneal.cpp	/^    double find_T() {$/;"	f	struct:SimulatedAnnealing
+freeze_lim	anneal.cpp	/^    int freeze_lim;$/;"	m	struct:SimulatedAnnealing	file:
+gamma	anneal.cpp	/^    double gamma;$/;"	m	struct:SimulatedAnnealing	file:
+initial_solution	anneal.cpp	/^    void initial_solution() {$/;"	f	struct:SimulatedAnnealing
+initprob	anneal.cpp	/^    double initprob;$/;"	m	struct:SimulatedAnnealing	file:
+islegal	anneal.cpp	/^    bool islegal;$/;"	m	struct:SimulatedAnnealing	file:
+iteration	anneal.cpp	/^    int iteration;$/;"	m	struct:SimulatedAnnealing	file:
+lowestcost	anneal.cpp	/^    double lowestcost;$/;"	m	struct:SimulatedAnnealing	file:
+m	anneal.cpp	/^    int m,n; \/\/ edges, nodes$/;"	m	struct:SimulatedAnnealing	file:
+main	anneal.cpp	/^int main(int argc, char ** argv)$/;"	f
+minpercent	anneal.cpp	/^    double minpercent;$/;"	m	struct:SimulatedAnnealing	file:
+n	anneal.cpp	/^    int m,n; \/\/ edges, nodes$/;"	m	struct:SimulatedAnnealing	file:
+neighborhood_size	anneal.cpp	/^    int neighborhood_size;$/;"	m	struct:SimulatedAnnealing	file:
+next_change	anneal.cpp	/^    void next_change() {$/;"	f	struct:SimulatedAnnealing
+read_instance	anneal.cpp	/^    void read_instance(string filename) {$/;"	f	struct:SimulatedAnnealing
+run_sa	anneal.cpp	/^    void run_sa(string filename) {$/;"	f	struct:SimulatedAnnealing
+set_params	anneal.cpp	/^    void set_params() {$/;"	f	struct:SimulatedAnnealing
+sizefactor	anneal.cpp	/^    int sizefactor;$/;"	m	struct:SimulatedAnnealing	file:
+solution	anneal.cpp	/^    vector<int> solution;$/;"	m	struct:SimulatedAnnealing	file:
+solution_prime	anneal.cpp	/^    vector<int> solution_prime;$/;"	m	struct:SimulatedAnnealing	file:
+solution_star	anneal.cpp	/^    vector<int> solution_star;$/;"	m	struct:SimulatedAnnealing	file:
+stochastic_tunneling	anneal.cpp	/^    bool stochastic_tunneling;$/;"	m	struct:SimulatedAnnealing	file:
+tempfactor	anneal.cpp	/^    double tempfactor;$/;"	m	struct:SimulatedAnnealing	file:

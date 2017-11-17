@@ -1,0 +1,35 @@
+Jacob Xu
+C++
+to run:
+    cd anneal
+    make
+    ./anneal inputfile 13 -kempe -st
+notes:
+
+    the INITPROB parameter may not work well if set too low
+        i suspect it to because the initial solution is not good enough
+            more details in code comments
+        T is set to 10.0 if first trial run has changes/trails > 0.5
+    
+    binary search was used to search for lowest k that FIXED_K finds
+        a hard iteration limit is also set for fixed_k approach
+        simulated annealing is run multiple times
+
+    CUTOFF is supposed to be a double/float despite what is specified in the assignment i think
+        the johnson part 2 paper sets it to 0.1 for fixed k
+
+    binary search is used to set T based on INITPROB
+        it is possible for a solution to be found during these trial runs
+
+    inf looping was observed for some cases of kempe chain and fixed_k
+        some simple checks were added to terminate early
+            if same cost or same # of changes > 50 times then terminate
+
+    a debug flag at top of anneal.cpp can be set true for more output
+
+    the program was tested on the following
+        run_sa("input1.txt"); // sanity benchmarks
+        run_sa("input.txt");
+        run_sa("input2.txt");
+        run_sa("4-Insertions_3.col"); // medium size
+        run_sa("2-FullIns_5.col"); // larger size
